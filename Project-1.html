@@ -1,0 +1,163 @@
+
+<html >
+<head>
+    <title>Sppu-Student-Login</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    height:100px;
+    border: 1px solid black;
+    width:100%;
+    justify-content: center;
+    margin-right: 0;
+    display:flex;
+
+}
+nav > div > img{
+    margin-left: 0;
+    height: 15vh;
+    padding: 5px 5px 5px 5px;
+}
+ul{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+
+    align-items: center;
+    gap: 30px;
+}
+li{
+    list-style: none;
+    font-size:clamp(1rem,5vw,2.5rem);
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px;
+}
+a:hover{
+    background-color: #8ef19e;
+    color: rgb(4, 150, 69);
+    border-radius:50px;
+    padding: 5px 5px 5px 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background: url(https://th.bing.com/th/id/R.451336b1f12c3481da5b8b6443800a44?rik=B7teyeL583GzRg&riu=http%3a%2f%2fstudyatuniversity.com%2fwp-content%2fuploads%2f2023%2f12%2fSavitribai-Phule-Pune-University-In-India.jpg&ehk=lX962Y1qbz930v%2fion5IZjveESEPXge3DFX4DpjIlFU%3d&risl=&pid=ImgRaw&r=0)center;
+    height: 60vh;
+    width: 100vw;
+}
+main{
+    height: 290px;
+    position: relative;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3rem;
+}
+#l1{
+    position:absolute;
+    top:5rem;
+    left:29rem;
+    font-size: 1.5rem;
+}
+#l2{
+    position:absolute;
+    top: 8rem;
+    left:29rem;
+    font-size: 1.5rem;
+}
+#i1{
+    position:absolute ;
+    top: 5rem;
+    border-radius:10px;
+    height: 2rem;
+        width: 12rem;
+    padding: 5px 5px 5px 5px;
+}
+#i2{
+    position:absolute ;
+    top: 8rem;
+    width: 12rem;
+    border-radius: 10px;
+    height:2rem;
+    padding: 5px 5px 5px 5px;
+}
+button{
+    height: 3rem;
+    width: 7rem;
+    position: absolute;
+    top: 12rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: lightskyblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.4rem;
+}
+button:hover{
+    background-color: #93ee78;
+    color: darkgreen;
+}
+
+footer{
+    height: 4.5rem;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a2:hover{
+    background-color: #8ef19e;
+    color: rgb(4, 150, 69);
+    border-radius:50px;
+    padding: 5px 5px 5px 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+</style>
+<body>
+    <nav>
+        <div class="logo"><img src="https://icit.org.in/wp-content/uploads/2024/05/SPPU-LOGO--e1724080867506.png"></div>
+        <ul>
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">Port</a></li>
+            <li><a href="http://">Contact</a></li>
+            <li><a href="http://">About-US</a></li>
+        </ul>
+    </nav>
+    <header></header>
+    <main>
+        <section>
+            <h1>Student Login Form</h1><br>
+        <label for="Name" id="l1">Name :</label>
+        <input type="text" name="" max="10" min="10" id="i1"><br>
+        <label for="Name" id="l2">Email :</label>
+        <input type="text" name="" id="i2"required><br>
+        <button type="submit">login</button>
+        </section>
+    </main>
+    <footer>
+        <p>Made By <a href="http://" id="a2">@Ayan</a> Bro</p>
+    </footer>
+</body>
+</html>
