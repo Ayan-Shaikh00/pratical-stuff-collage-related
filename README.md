@@ -1,1 +1,0 @@
-# pratical-stuff-collage-related
